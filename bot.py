@@ -4,7 +4,7 @@ import os
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.filters import Command
 from aiogram.types import Message
-from dotenv import load_dotenv
+from pythondotenv import load_dotenv
 
 load_dotenv()  # Инициализация .env
 
